@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Google</title>
+    </head>
+    <body>
+    <style>
+        
+        .master-container { 
+            width: 100%;
+            margin: auto;
+        }
+
+        .nav-container {
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: flex-start;
+        }
+        
+        .nav-account {
+            display: flex;
+            justify-content: flex-end;        
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            display: inline;
+        }
+
+        li a:hover {
+            text-decoration: underline;
+        }
+       
+        a {
+           text-decoration: none;
+           color: #000;
+           font-family: Arial, Helvetica, sans-serif;
+           font-size: 13px;
+        }
+        
+        .Store {
+            margin-left: 20px;
+        }
+
+        .Images {
+            margin-left: 20px;
+        }
+
+        .Apps {
+            margin-left: 20px;
+            width: 25px;
+            height: 25px;
+        }
+
+        .Sign-In {
+            margin-left: 20px;
+            color: white;
+            background-color: #4285f4;
+            border: 1px solid #4285f4;
+            border-radius: 2px;
+            font-weight: bold;
+            padding: 8px;
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: center;
+            padding-top: 100px;
+        }
+
+        .search-container {
+            margin: 30px;  
+            display: flex;
+            justify-content: center;    
+        }
+
+        .search-box {
+            border: 1px solid #dfe1e5;
+            border-radius: 24px;
+            outline: none;
+            width: 485px;
+            height: 45px;
+            text-align: center;
+        }
+
+        .search-bar {
+            width: 415px;
+            height: 35px;
+            border: none;
+            outline: none;
+        }
+
+        .glass {
+            width: 30px;   
+        }
+
+        .microphone {
+            width: 20px;
+        }
+
+        .submit-buttons {
+            display: flex;
+            justify-content: center; 
+        }
+
+        .search-button {
+            background-color: #f2f2f2;
+            border-radius: 3px;
+            border: none;
+            outline: none;
+            padding: 8px;
+            margin: 10px;
+        }
+
+        .search-button:hover {
+            border: 1px #f2f2f2 solid;
+        }
+
+        .lucky-button {
+            background-color: #f2f2f2;
+            border-radius: 3px;
+            border: none;
+            outline: none;
+            padding: 8px;
+            margin: 10px;
+        }
+
+        .lucky-button:hover {
+            border: 1px #f2f2f2 solid;
+            box-shadow: black;
+        }
+
+        .footer-container {
+            display: flex;
+            justify-content: space-between;
+            background-color: #f2f2f2;
+            width: 100%;
+            line-height: 40px;
+            position: absolute;
+            bottom: 0;
+        }
+
+        .footer-left {
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        .footer-right {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .Advertising {
+            margin-left: 20px;
+        }
+
+        .Business {
+            margin-left: 20px;
+        }
+
+        .How {
+            margin-left: 20px;
+        }
+
+        .Privacy {
+            margin-right: 20px;
+        }
+
+        .Terms {
+            margin-right: 20px;
+        }
+
+        .Settings {
+            margin-right: 20px;
+        }
+        
+    </style>
+    <div class="master-container">
+        <!--Navigation Bar-->
+        <nav class="nav-container">
+            <ul class="nav-links">
+                <li><a href="#" class="About">About</a></li>
+                <li><a href="#" class="Store">Store</a></li>
+            </ul>
+            <ul class="nav-account">
+                <li><a href="#" class="Gmail">Gmail</a></li>
+                <li><a href="#" class="Images">Images</a></li>
+                <li><a href="#"></a></a><img class="Apps" alt="Account Apps Icon" src="https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_apps_48px-512.png"></li>
+                <li><a href="#"></a><button class="Sign-In">Sign in</button></li>
+            </ul>          
+        </nav>
+        <!--Header/Logo-->
+        <header class="header-container">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+        </header>
+        <!--Search Container-->
+        <div class="search-container">
+            <div class="search-box">
+                <img class="glass" src="https://icons-for-free.com/iconfiles/png/512/magnifying+glass+search+zoom+icon-1320196461375500720.png">
+                <input type="text" required class="search-bar">
+                <img class="microphone" src="https://i.ya-webdesign.com/images/google-search-png-1.png">
+            </div>
+        </div>
+        <div class="submit-buttons">
+            <button class="search-button" type="submit">Google Search</button>
+            <button class="lucky-button" type="submit">I'm Feeling Lucky</button>
+        </div>
+        <!--Footer-->
+        <footer class="footer-container">
+            <ul class="footer-left">
+                <li><a href="#" class="Advertising">Advertising</a></li>
+                <li><a href="#" class="Business">Business</a></li>
+                <li><a href="#" class="How">How Search Works</a></li>
+            </ul>
+            <ul class="footer-right">
+                <li><a href="#" class="Privacy">Privacy</a></li>
+                <li><a href="#" class="Terms">Terms</a></li>
+                <li><a href="#" class="Settings">Settings</a></li>
+            </ul>
+        </footer>
+    </div>
+    </body>
+</html>
