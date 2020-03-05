@@ -1,0 +1,3 @@
+This project is to recreate the Google homepage with an HTML file.
+I have utilized HTML and CSS to recreate a visual likeness of the standard Google homepage. I focused on learning to use flex containers and struggled with getting exact placement correctly, especially within the search bar. 
+This project was an exercise from The Odin Project's Web Development course: (http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
